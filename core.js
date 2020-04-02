@@ -6,6 +6,11 @@ document.addEventListener("keypress", function() {
     num2 = document.getElementById("num2").value;
 });
 
+document.addEventListener("click", function() {
+    num1 = document.getElementById("num1").value;
+    num2 = document.getElementById("num2").value;
+});
+
 function add() {
     console.log("Starting add")
     tax = parseFloat(document.getElementById("tax").value);
